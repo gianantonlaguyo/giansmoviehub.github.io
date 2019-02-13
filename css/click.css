@@ -1,0 +1,66 @@
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #9e77f9;
+    }
+    li {
+      float: left;
+    }
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    li a:hover {
+      background-color: #7b48f2;
+      text-decoration: none;
+      color: white;
+    }
+    .gianbanner {
+      background-image: url(../assets/images/avg22.jpg);
+      background-position: 50% 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-bottom: 0px;
+      color: #925afc;
+      width: 100%;
+      height: 200px;
+    }
+    .active{
+      background-color: #7b48f2;
+    }
+    .bannertext{
+      padding-top: 70px;
+      padding-left: 35px;
+    }
+    #img1{
+      width: 100%;
+      height: auto;
+    }
+    #link{
+      text-decoration: none;
+      color: black;
+    }
+    table {
+      font-family: arial, sans-serif;
+
+      width: 100%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+#text{
+    color: #7b48f2;
+    font-family: candara;
+}
